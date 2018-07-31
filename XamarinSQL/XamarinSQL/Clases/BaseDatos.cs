@@ -9,7 +9,7 @@ namespace XamarinSQL.Clases
     public static class BaseDatos
     {
         static string cadenaConexion =
-            @"Data Source=""188.187.1.7, 1433""; Initial Catalog=Empresa;User ID=admin; password=123;Connect Timeout=60";
+            @"Data Source=""Тут IP адресс который дал провайдер, 1433""; Initial Catalog=Empresa;User ID=admin; password=123;Connect Timeout=60";
 
         public static List<Empleados> ObtenerEmpleados()
         {
